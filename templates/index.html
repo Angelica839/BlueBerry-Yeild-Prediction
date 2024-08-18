@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blueberry Yield Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Blueberry Yield Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="feature1">CLONESIZE:</label>
+        <input type="text" id="feature1" name="feature1"><br><br>
+        <label for="feature2">HONEYBEE:</label>
+        <input type="text" id="feature2" name="feature2"><br><br>
+        <label for="feature3">BUMBLES:</label>
+        <input type="text" id="feature3" name="feature3"><br><br>
+        <label for="feature4">ANDRENA:</label>
+        <input type="text" id="feature1" name="feature4"><br><br>
+        <label for="feature5">OSMIA:</label>
+        <input type="text" id="feature1" name="feature5"><br><br>
+        <label for="feature6">MAX OF UPPER T RANGE:</label>
+        <input type="text" id="feature1" name="feature6"><br><br>
+        <label for="feature7">MIN OF UPPER T RANGE:</label>
+        <input type="text" id="feature1" name="feature7"><br><br>
+        <label for="feature8">AVERAGE OF UPPER T RANGE:</label>
+        <input type="text" id="feature1" name="feature8"><br><br>
+        <label for="feature9">MAX OF LOWER T RANGE:</label>
+        <input type="text" id="feature10" name="feature9"><br><br>
+        <label for="feature10">Min Of Lower T Range:</label>
+        <input type="text" id="feature1" name="feature10"><br><br>
+        <label for="feature11">Average Of Lower T Range:</label>
+        <input type="text" id="feature1" name="feature11"><br><br>
+        <label for="feature12">Raining Days:</label>
+        <input type="text" id="feature1" name="feature12"><br><br>
+        <label for="feature13">Average Raining Days:</label>
+        <input type="text" id="feature1" name="feature13"><br><br>
+        <label for="feature14">Fruitset:</label>
+        <input type="text" id="feature1" name="feature14"><br><br>
+        <label for="feature15">Fruitmass:</label>
+        <input type="text" id="feature1" name="feature15"><br><br>
+        <label for="feature16">Seeds:</label>
+        <input type="text" id="feature1" name="feature16"><br><br>
+        <label for="feature17">Yield:</label>
+        <input type="text" id="feature1" name="feature17"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
+
+
